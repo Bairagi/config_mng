@@ -20,5 +20,6 @@ class apps {
 	package { "htop":
 	ensure => present,
 	}
+include apps::fileconfig
 }
 
