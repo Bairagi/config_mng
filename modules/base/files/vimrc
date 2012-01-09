@@ -1,0 +1,8 @@
+# Nilesh Bairagi
+# User can additionally add his own customizations
+# This is customized for following things
+
+syntax on
+set wrap
+set ts=4
+set autoindent

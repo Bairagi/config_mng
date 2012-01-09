@@ -1,0 +1,16 @@
+# Nilesh Bairagi
+
+
+# Includes customized classes for config files (user can add/ remove classes - need based)
+
+class configfiles {
+	# Getting customized classes
+	include vimconfig::VimCopy, bashconfig::BashCopy
+}
+
+
+# Includes customized packages (user can add/ remove individual classes - need based)
+
+class apps { 												#apps::GetAnyApp
+	include apps::yum-presto, apps::yum-fastestmirror, apps::yum-security, apps::screen, apps::ssh
+}

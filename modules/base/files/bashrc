@@ -1,0 +1,14 @@
+# Nilesh Bairagi
+# This is sample customized .bashrc file
+# User can write customized definitions and alias
+
+# .bashrc
+
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific aliases and functions
+alias la='ls -a'
